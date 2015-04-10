@@ -1,0 +1,1 @@
+C:\Graphics\Scene_Code\Descriptor\ZernikeMoments\ZernikeMoments01\ZernikeDescriptor\Release\ZernikeDescriptor 0 38

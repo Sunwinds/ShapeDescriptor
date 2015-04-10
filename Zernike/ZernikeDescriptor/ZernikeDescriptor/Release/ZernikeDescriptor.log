@@ -1,0 +1,58 @@
+﻿Build started 12/16/2013 4:00:57 PM.
+     1>Project "C:\Graphics\Scene_Code\Descriptor\ShapeDescriptor\Zernike\ZernikeDescriptor\ZernikeDescriptor\ZernikeDescriptor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ZernikeDescriptor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\main.cpp ..\..\Parameters.cpp ..\..\Utility.cpp
+         main.cpp
+     1>c:\graphics\scene_code\descriptor\shapedescriptor\zernike\ZernikeDescriptor.cpp(253): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\graphics\scene_code\descriptor\shapedescriptor\zernike\ZernikeDescriptor.cpp(201) : while compiling class template member function 'double *ZernikeDescriptor<T,TIn>::ReadBinvoxGrid(const char *,int &)'
+                 with
+                 [
+                     T=double,
+                     TIn=float
+                 ]
+                 c:\graphics\scene_code\descriptor\shapedescriptor\zernike\ZernikeDescriptor.cpp(52) : while compiling class template member function 'ZernikeDescriptor<T,TIn>::ZernikeDescriptor(const char *,int)'
+                 with
+                 [
+                     T=double,
+                     TIn=float
+                 ]
+                 ..\..\main.cpp(134) : see reference to class template instantiation 'ZernikeDescriptor<T,TIn>' being compiled
+                 with
+                 [
+                     T=double,
+                     TIn=float
+                 ]
+     1>c:\graphics\scene_code\descriptor\shapedescriptor\zernike\ScaledGeometricalMoments.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+                 c:\graphics\scene_code\descriptor\shapedescriptor\zernike\ScaledGeometricalMoments.cpp(76) : while compiling class template member function 'void ScaledGeometricalMoments<VoxelT,MomentT>::Init(const VoxelT *,int,int,int,double,double,double,double,int)'
+                 with
+                 [
+                     VoxelT=double,
+                     MomentT=double
+                 ]
+                 c:\graphics\scene_code\descriptor\shapedescriptor\zernike\ZernikeDescriptor.cpp(124) : while compiling class template member function 'void ZernikeDescriptor<T,TIn>::ComputeNormalization(void)'
+                 with
+                 [
+                     T=double,
+                     TIn=float
+                 ]
+         Parameters.cpp
+         Utility.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Graphics\Scene_Code\Descriptor\ShapeDescriptor\Zernike\ZernikeDescriptor\Release\ZernikeDescriptor.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ZernikeDescriptor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Graphics\Scene_Code\Descriptor\ShapeDescriptor\Zernike\ZernikeDescriptor\Release\ZernikeDescriptor.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Graphics\Scene_Code\Descriptor\ShapeDescriptor\Zernike\ZernikeDescriptor\Release\ZernikeDescriptor.lib" /MACHINE:X86 Release\main.obj
+         Release\Parameters.obj
+         Release\Utility.obj
+         Generating code
+         Finished generating code
+         ZernikeDescriptor.vcxproj -> C:\Graphics\Scene_Code\Descriptor\ShapeDescriptor\Zernike\ZernikeDescriptor\Release\ZernikeDescriptor.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Graphics\Scene_Code\Descriptor\ShapeDescriptor\Zernike\ZernikeDescriptor\Release\ZernikeDescriptor.exe;#1" /manifest Release\ZernikeDescriptor.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ZernikeDescriptor.unsuccessfulbuild".
+         Touching "Release\ZernikeDescriptor.lastbuildstate".
+     1>Done Building Project "C:\Graphics\Scene_Code\Descriptor\ShapeDescriptor\Zernike\ZernikeDescriptor\ZernikeDescriptor\ZernikeDescriptor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.39

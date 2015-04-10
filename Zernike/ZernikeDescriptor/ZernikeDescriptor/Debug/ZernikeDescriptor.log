@@ -1,0 +1,55 @@
+﻿Build started 9/23/2013 4:26:19 PM.
+     1>Project "C:\Graphics\Scene_Code\Descriptor\ZernikeMoments\ZernikeMoments01\ZernikeDescriptor\ZernikeDescriptor\ZernikeDescriptor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ZernikeDescriptor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\main.cpp
+         main.cpp
+     1>c:\graphics\scene_code\descriptor\zernikemoments\zernikemoments01\zernikedescriptor.cpp(253): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\graphics\scene_code\descriptor\zernikemoments\zernikemoments01\zernikedescriptor.cpp(201) : while compiling class template member function 'double *ZernikeDescriptor<T,TIn>::ReadBinvoxGrid(const char *,int &)'
+                 with
+                 [
+                     T=double,
+                     TIn=float
+                 ]
+                 c:\graphics\scene_code\descriptor\zernikemoments\zernikemoments01\zernikedescriptor.cpp(52) : while compiling class template member function 'ZernikeDescriptor<T,TIn>::ZernikeDescriptor(const char *,int)'
+                 with
+                 [
+                     T=double,
+                     TIn=float
+                 ]
+                 c:\graphics\scene_code\descriptor\zernikemoments\zernikemoments01\main.cpp(143) : see reference to class template instantiation 'ZernikeDescriptor<T,TIn>' being compiled
+                 with
+                 [
+                     T=double,
+                     TIn=float
+                 ]
+     1>c:\graphics\scene_code\descriptor\zernikemoments\zernikemoments01\scaledgeometricalmoments.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+                 c:\graphics\scene_code\descriptor\zernikemoments\zernikemoments01\scaledgeometricalmoments.cpp(76) : while compiling class template member function 'void ScaledGeometricalMoments<VoxelT,MomentT>::Init(const VoxelT *,int,int,int,double,double,double,double,int)'
+                 with
+                 [
+                     VoxelT=double,
+                     MomentT=double
+                 ]
+                 c:\graphics\scene_code\descriptor\zernikemoments\zernikemoments01\zernikedescriptor.cpp(124) : while compiling class template member function 'void ZernikeDescriptor<T,TIn>::ComputeNormalization(void)'
+                 with
+                 [
+                     T=double,
+                     TIn=float
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Graphics\Scene_Code\Descriptor\ZernikeMoments\ZernikeMoments01\ZernikeDescriptor\Debug\ZernikeDescriptor.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ZernikeDescriptor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Graphics\Scene_Code\Descriptor\ZernikeMoments\ZernikeMoments01\ZernikeDescriptor\Debug\ZernikeDescriptor.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Graphics\Scene_Code\Descriptor\ZernikeMoments\ZernikeMoments01\ZernikeDescriptor\Debug\ZernikeDescriptor.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Parameters.obj
+         Debug\Utility.obj
+         LINK : C:\Graphics\Scene_Code\Descriptor\ZernikeMoments\ZernikeMoments01\ZernikeDescriptor\Debug\ZernikeDescriptor.exe not found or not built by the last incremental link; performing full link
+         ZernikeDescriptor.vcxproj -> C:\Graphics\Scene_Code\Descriptor\ZernikeMoments\ZernikeMoments01\ZernikeDescriptor\Debug\ZernikeDescriptor.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Graphics\Scene_Code\Descriptor\ZernikeMoments\ZernikeMoments01\ZernikeDescriptor\Debug\ZernikeDescriptor.exe;#1" /manifest Debug\ZernikeDescriptor.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ZernikeDescriptor.unsuccessfulbuild".
+         Touching "Debug\ZernikeDescriptor.lastbuildstate".
+     1>Done Building Project "C:\Graphics\Scene_Code\Descriptor\ZernikeMoments\ZernikeMoments01\ZernikeDescriptor\ZernikeDescriptor\ZernikeDescriptor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.91
